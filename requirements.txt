@@ -1,0 +1,12 @@
+# Core dependencies
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+
+# Optional but recommended
+freesasa>=2.1.0  # For SASA calculations (optional, will fall back if not available)
+scipy>=1.7.0     # For advanced calculations (optional)
+
+# For visualization
+plotly>=5.0.0    # For interactive visualizations
+seaborn>=0.11.0  # For statistical plots
