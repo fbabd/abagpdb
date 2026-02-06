@@ -1,5 +1,5 @@
 """
-Setup configuration for abagpdb package
+Setup configuration for PyPDBcomplex package
 """
 from setuptools import setup, find_packages
 from pathlib import Path
@@ -16,14 +16,14 @@ if requirements_path.exists():
     requirements = [req.strip() for req in requirements if req.strip() and not req.startswith('#')]
 
 setup(
-    name="abagpdb",
+    name="PyPDBcomplex",
     version="0.1.0",
     author="Faisal B Ashraf",  
     author_email="faisal.b.ashraf@gmail.com",   
     description="Comprehensive toolkit for protein-protein complex structure analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fbabd/abagpdb",   
+    url="https://github.com/fbabd/PyPDBcomplex",   
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -72,8 +72,8 @@ setup(
         'protein analysis',
     ],
     project_urls={
-        'Documentation': 'https://github.com/fbabd/abagpdb#readme',
-        'Source': 'https://github.com/fbabd/abagpdb',
-        'Bug Reports': 'https://github.com/fbabd/abagpdb/issues',
+        'Documentation': 'https://github.com/fbabd/PyPDBcomplex#readme',
+        'Source': 'https://github.com/fbabd/PyPDBcomplex',
+        'Bug Reports': 'https://github.com/fbabd/PyPDBcomplex/issues',
     },
 )

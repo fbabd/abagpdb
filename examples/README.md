@@ -1,6 +1,6 @@
-# abagpdb Example Notebooks
+# PyPDBcomplex Example Notebooks
 
-This directory contains comprehensive Jupyter notebooks demonstrating all features of the `abagpdb` package for protein structure analysis.
+This directory contains comprehensive Jupyter notebooks demonstrating all features of the `PyPDBcomplex` package for protein structure analysis.
 
 ## 📚 Notebook Overview
 
@@ -74,7 +74,7 @@ This directory contains comprehensive Jupyter notebooks demonstrating all featur
 
 ### Prerequisites
 ```bash
-pip install abagpdb pandas matplotlib numpy seaborn
+pip install PyPDBcomplex pandas matplotlib numpy seaborn
 ```
 
 ### Running the Notebooks

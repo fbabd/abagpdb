@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "abagpdb"
+name = "PyPDBcomplex"
 version = "0.1.0"
 description = "Comprehensive toolkit for protein-protein complex structure analysis"
 readme = "README.md"
@@ -61,18 +61,18 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fbabd/abagpdb"
-Documentation = "https://github.com/fbabd/abagpdb#readme"
-Repository = "https://github.com/fbabd/abagpdb"
-"Bug Reports" = "https://github.com/fbabd/abagpdb/issues"
+Homepage = "https://github.com/fbabd/PyPDBcomplex"
+Documentation = "https://github.com/fbabd/PyPDBcomplex#readme"
+Repository = "https://github.com/fbabd/PyPDBcomplex"
+"Bug Reports" = "https://github.com/fbabd/PyPDBcomplex/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["abagpdb*"]
+include = ["PyPDBcomplex*"]
 exclude = ["tests*", "examples*"]
 
 [tool.setuptools.package-data]
-abagpdb = ["py.typed"]
+PyPDBcomplex = ["py.typed"]
 
 [tool.black]
 line-length = 100
@@ -84,4 +84,4 @@ testpaths = ["tests"]
 python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
-addopts = "-v --cov=abagpdb --cov-report=html --cov-report=term"
+addopts = "-v --cov=PyPDBcomplex --cov-report=html --cov-report=term"

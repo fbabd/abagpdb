@@ -1,13 +1,13 @@
 """
-abagpdb - Antibody-Antigen PDB Analysis Toolkit
+PDB complex Analysis Toolkit
 
 A comprehensive Python package for analyzing protein structures,
 with focus on antibody-antigen complexes.
 """
 
 __version__ = "0.1.0"
-__author__ = "Your Name"
-__email__ = "your.email@example.com"
+__author__ = "Faisal B. Ashraf"
+__email__ = "fashr003@ucr.edu"
 
 # Core functionality
 from .pdbparser import parse_pdb
